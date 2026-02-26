@@ -9,77 +9,115 @@
         android:orientation="vertical"
         android:padding="20dp">
 
+        <!-- NAME -->
         <TextView
-            android:text="Valentinus Delvin Wicaksono"
-            android:textSize="20sp"
+            android:text="VALENTINUS DELVIN WICAKSONO"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <!-- CONTACT -->
         <TextView
-            android:text="Malang, Indonesia | delvinwicaksono@gmail.com | 0895391751050"
+            android:text="+62895391751050 | delvinwicaksono@gmail.com"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="\nProfessional Summary"
+            android:text="linkedin.com/in/valentinusdelvin"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginVertical="12dp"/>
+
+        <!-- SUMMARY -->
+        <TextView
+            android:text="PROFILE"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="Mahasiswa S1 Teknologi Informasi dengan minat utama pada Software Engineering. Berpengalaman menggunakan Java dan Golang untuk membangun sistem berbasis REST API yang scalable."
-            android:layout_marginTop="4dp"
+            android:text="Second-year Computer Science student at Universitas Brawijaya who loves building backend systems and crafting efficient web and application solutions. Interested in teamwork and turning ideas into real working products."
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginVertical="12dp"/>
+
+        <!-- EDUCATION -->
+        <TextView
+            android:text="EDUCATION"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Universitas Brawijaya (2024 - 2028)\nBachelor of Computer Science | GPA: 3.94/4.00"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginVertical="12dp"/>
+
+        <!-- ORGANISATION -->
+        <TextView
+            android:text="ORGANISATIONAL EXPERIENCE"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Basic Computing Community (Backend Department)\n- Participated in backend workshops\n- Organized Klinik Koding (350+ attendees)"
+            android:layout_marginTop="6dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="\nSkills"
+            android:text="\nKBMDSI (Scientific and Education Department)\n- Chairman of IT Fest (58 team members)\n- Vice coordinator of Wajar 2025"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginVertical="12dp"/>
+
+        <!-- PROJECTS -->
+        <TextView
+            android:text="PROJECT EXPERIENCE"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="- Java\n- Golang\n- SQL\n- REST API\n- Git"
-            android:layout_marginTop="4dp"
+            android:text="SOS 2025 Website (Go Backend)\n- Built scalable backend system for 700+ users\n- Implemented dependency injection"
+            android:layout_marginTop="6dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="\nEducation"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="Universitas Brawijaya\nS1 Teknologi Informasi"
-            android:layout_marginTop="4dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="\nExperience"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="- Vice Head of Backend Department at Basic Computing Community FILKOM UB\n- Head of Science and Education Department at KBMDSI FILKOM UB"
-            android:layout_marginTop="4dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="\nProject"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:text="- Vice Head of Backend Department at Basic Computing Community FILKOM UB\n- Head of Science and Education Department at KBMDSI FILKOM UB"
-            android:layout_marginTop="4dp"
+            android:text="\nVeloMom (Go Backend)\n- JWT authentication\n- Midtrans payment integration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
