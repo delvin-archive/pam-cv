@@ -9,27 +9,52 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- NAME -->
-        <TextView
-            android:text="VALENTINUS DELVIN WICAKSONO"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+        <!-- HEADER (Name + Photo) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
 
-        <!-- CONTACT -->
-        <TextView
-            android:text="+62895391751050 | delvinwicaksono@gmail.com"
-            android:textSize="12sp"
-            android:layout_marginTop="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            <!-- LEFT SIDE (Name & Contact) -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
-        <TextView
-            android:text="linkedin.com/in/valentinusdelvin"
-            android:textSize="12sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="VALENTINUS DELVIN WICAKSONO"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="+62895391751050 | delvinwicaksono@gmail.com"
+                    android:textSize="12sp"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="linkedin.com/in/valentinusdelvin"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <!-- RIGHT SIDE (Photo) -->
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/photo"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="12dp"/>
+
+        </LinearLayout>
 
         <!-- Divider -->
         <View
@@ -37,8 +62,6 @@
             android:layout_height="1dp"
             android:background="#000000"
             android:layout_marginVertical="12dp"/>
-
-        <!-- SUMMARY -->
         <TextView
             android:text="PROFILE"
             android:textStyle="bold"
